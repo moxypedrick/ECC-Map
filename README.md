@@ -1,1 +1,1 @@
-# ECC-Map
+# ECC Map
