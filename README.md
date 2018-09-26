@@ -1,1 +1,1 @@
-# ECC Map
+# EarthCraft Community Map and Certification Tool
