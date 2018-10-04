@@ -2,10 +2,10 @@
 
 Rawgit for S Georgia File: 
 
-Production: https://cdn.rawgit.com/moxypedrick/ECC-Map/75487395/S%20Georgia.geojson
-Development: https://rawgit.com/moxypedrick/ECC-Map/master/S%20Georgia.geojson
+Production: https://cdn.rawgit.com/moxypedrick/ECC-Map/680c77e1/S_Georgia.geojson
+Development: https://rawgit.com/moxypedrick/ECC-Map/master/S_Georgia.geojson
 
 Rawgit for N Georgia File: 
 
-Production: https://cdn.rawgit.com/moxypedrick/ECC-Map/75487395/N%20Georgia.geojson
-Development: https://rawgit.com/moxypedrick/ECC-Map/master/N%20Georgia.geojson
+Production: https://cdn.rawgit.com/moxypedrick/ECC-Map/680c77e1/N_Georgia.geojson
+Development: https://rawgit.com/moxypedrick/ECC-Map/master/N_Georgia.geojson
