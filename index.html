@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,10 +5,11 @@
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
     <title>ECC Map Mapbox GL</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://raw.githack.com/moxypedrick/ECC-Map/master/style.css" rel="stylesheet" type="text/css" />
   <style>
     body {
         color:#404040;
+        background:#fff;
         font: 400 15px/26px 'Helvetica Neue', Helvetica, Arial, Sans-serif;
         margin:0;
         padding:0;
@@ -24,6 +24,7 @@
       h1 {
         font-size: 22px;
         margin: 0;
+        background: #fff;
         font-weight: 400;
         line-height: 20px;
         padding: 20px 2px;
@@ -43,8 +44,9 @@
         height: 100%;
         top: 0;
         left: 0;
+        background:#fff;
         overflow: hidden;
-        border-right: 1px solid rgba(0, 0, 0, 0.25);
+        border-right: 1px solid rgba(255 , 255, 255, 1.0);
       }
 
       .map{
@@ -56,6 +58,7 @@
       }
       .pad2 {
         padding:0px;
+        background:#fff;
       }
       .heading {
         background: #fff;
@@ -71,6 +74,7 @@
       }
       .listings .item {
         display: block;
+        background: #fff;
         border-bottom: 1px solid #eee;
         padding: 10px;
         text-decoration: none;
@@ -127,19 +131,19 @@
       <div id='listings' class='listings'>
         <div class='item' id='listing-0'>
           <a href='#' class='title'>Net Evapotranspiration (inches)</a>
-          <div id='netET'>Details</div>
+          <div id='netET'>Hover over map for ETP.</div>
         </div>
         <div class='item' id='listing-1'>
           <a href='#' class='title'>1-year, 24-hour Storm (inches)</a>
-          <div id='oneYear'>Details</div>
+          <div id='oneYear'>Hover over map for design storm.</div>
         </div>
         <div class='item' id='listing-2'>
-          <a href='#' class='title'>EcoRegon</a>
-          <div id='ecoRegion'>Details</div>
+          <a href='#' class='title'>Eco-Region</a>
+          <div id='ecoRegion'>Hover over map for Eco-Region.</div>
         </div>
         <div class='item' id='listing-2'>
           <a href='#' class='title'>Jobs to Housing Balance</a>
-          <div id='jobs2housing'>Details</div>
+          <div id='jobs2housing'>Hover over map for ratio.</div>
         </div>
       </div>
     </div>
@@ -148,8 +152,10 @@
       <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.min.js'></script>
       <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.css' type='text/css' />
       <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v3.0.11/turf.min.js'></script>
+      
       <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.9/mapbox-gl-draw.js'></script>
       <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.9/mapbox-gl-draw.css' type='text/css'/>
-      <script src='script.js'></script>
+      
+      <script src='https://raw.githack.com/moxypedrick/ECC-Map/master/script.js'></script>
   </body>  
 </html>
