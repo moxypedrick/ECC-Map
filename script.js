@@ -45,7 +45,7 @@ map.on('load', function() {
       'fill-opacity':0.01,
       'fill-outline-color' : '#000000'    
     }
-  })
+  }, 'soGeorgiaLayer')
   
   map.addSource('isochrone', {
     'type' : 'geojson',
@@ -60,7 +60,7 @@ map.on('load', function() {
       'fill-opacity':0.1,
       'fill-outline-color' : '#000000' 
     }
-  })
+  }, 'noGeorgiaLayer')
 });
 
 map.on('mousemove','soGeorgiaLayer', function(e){
@@ -84,7 +84,7 @@ var draw = new MapboxDraw({
 
 function updateArea(e){
   var features = e;
-  var data = draw.getAll(); 
+  //var data = draw.getAll(); 
   //console.log(features);
   document.getElementById('netET').innerHTML = features[0].properties.Net_ET;
   document.getElementById('oneYear').innerHTML = features[0].properties.Inches_2;
