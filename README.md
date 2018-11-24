@@ -17,3 +17,9 @@ JavaScript:
 Production: https://rawcdn.githack.com/moxypedrick/ECC-Map/fd3c0081b99eb731fb9c3e3eb069b389b0abd4b0/script.js
 
 Development: https://raw.githack.com/moxypedrick/ECC-Map/master/script.js
+
+Styles:
+
+Development: https://raw.githack.com/moxypedrick/ECC-Map/master/style.css
+
+Production: https://rawcdn.githack.com/moxypedrick/ECC-Map/02d48faaf684134ad9c9e6090a3d58586340b634/style.css
