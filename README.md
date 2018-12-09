@@ -22,7 +22,7 @@ Styles:
 
 Development: https://raw.githack.com/moxypedrick/ECC-Map/master/style.css
 
-Production: https://rawcdn.githack.com/moxypedrick/ECC-Map/f1fe9e72a16e133d38fff9ff17300018df59d712/style.css
+Production: https://rawcdn.githack.com/moxypedrick/ECC-Map/42aa87181ca9c43d97d2a6aff8e063e2bd7a4974/style.css
 
 Walkshed Icon: 
 
