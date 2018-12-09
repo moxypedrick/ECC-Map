@@ -22,4 +22,4 @@ Styles:
 
 Development: https://raw.githack.com/moxypedrick/ECC-Map/master/style.css
 
-Production: https://rawcdn.githack.com/moxypedrick/ECC-Map/02d48faaf684134ad9c9e6090a3d58586340b634/style.css
+Production: https://rawcdn.githack.com/moxypedrick/ECC-Map/f1fe9e72a16e133d38fff9ff17300018df59d712/style.css
