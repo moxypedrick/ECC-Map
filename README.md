@@ -26,6 +26,7 @@ Production: https://rawcdn.githack.com/moxypedrick/ECC-Map/f1fe9e72a16e133d38fff
 
 Walkshed Icon: 
 
-Development: https://raw.githack.com/moxypedrick/ECC-Map/master/ecc map walkshed icon-3.svg
+Development: https://raw.githack.com/moxypedrick/ECC-Map/master/ecc map walkshed icon-final.svg
 
-Production: https://rawcdn.githack.com/moxypedrick/ECC-Map/8dc69f0b44fd158de0db6a0a9b3eaf75f7c73ae5/ecc map walkshed icon-3.svg
+Production: https://rawcdn.githack.com/moxypedrick/ECC-Map/0572a3780752aaba4a4d2199a287ffaffbd0ab16/ecc map walkshed icon-final.svg
+
