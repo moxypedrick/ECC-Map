@@ -8,6 +8,7 @@ var bounds = [
 mapboxgl.accessToken = 'pk.eyJ1IjoibW94eXBlZCIsImEiOiJjaWgydGpwdmYweHJydnFtMzZzOXpmNjg3In0.5TXWYv0Z7nsOZHneIQOhxg';
 
 var map = new mapboxgl.Map({
+  
     container: 'map',
     style: 'mapbox://styles/moxyped/cjn6fq1br115i2snaywee8zce',
     center: [-84.380378, 33.767279],
@@ -102,9 +103,11 @@ map.addControl(new MapboxGeocoder({
 }), 'top-right');
 
 map.on('click', function(e){
-  var urlIsochrone = 'https://api.mapbox.com/isochrone/v1/mapbox/walking/'+e.lngLat.lng+','+e.lngLat.lat+'?contours_minutes=5,10&contours_colors=6706ce,04e813,4286f4&polygons=true&access_token=pk.eyJ1IjoibW94eXBlZCIsImEiOiJjaWgydGpwdmYweHJydnFtMzZzOXpmNjg3In0.5TXWYv0Z7nsOZHneIQOhxg'
+  if(event.ctrlKey){
+  var urlIsochrone = 'https://api.mapbox.com/isochrone/v1/mapbox/walking/'+e.lngLat.lng+','+e.lngLat.lat+'?contours_minutes=2,3,4,5&contours_colors=6706ce,04e813,4286f4&polygons=true&access_token=pk.eyJ1IjoibW94eXBlZCIsImEiOiJjaWgydGpwdmYweHJydnFtMzZzOXpmNjg3In0.5TXWYv0Z7nsOZHneIQOhxg'
     
   map.getSource('isochrone').setData(urlIsochrone);
+  }
 });
 
 var scale = new mapboxgl.ScaleControl({
