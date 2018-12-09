@@ -1,6 +1,6 @@
 body {
   color:#404040;
-  font: 400 15px/26px 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+  font: 300 15px/26px 'Roboto Slab', serif;
   margin:0;
   padding:0;
   -webkit-font-smoothing:antialised;
@@ -13,7 +13,7 @@ box-sizing: border-box;
 
 .sidebar {  
   position: fixed;
-  width:25vw;
+  width: 25vw;
   height: 90vh;
   top: 100; 
   left: 0vw;
@@ -36,25 +36,27 @@ h1 {
 }
 
 .popup {
+  font: 300 15px/26px 'Roboto Slab', serif;
   font-size: 12px;
   margin: -10px;
   padding: -10px; 
   border: -10px;
   text-align: center;
-  background: #ee8a65; 
+  background: #6cbe4cff; 
   color: #000;
 }
 
 .heading {
   border-box: 10 px solid #000;
   line-height: 20px;
-  background: #fff;
+  background: #6cbe4cff;
 }
 
 .sidebar-foot-1 {  
+  font: 300 15px/26px 'Roboto Slab', serif;
   position: fixed;
-  width:33vw;
-  height: 15vh;
+  
+  height: 30vh;
   line-height:1.5;
   top: 100;
   overflow: visible;
@@ -62,7 +64,7 @@ h1 {
 }
 .left{
   left: 0vw;
-  width: 66vw
+  width: 66vw;
 }
 .right{
   left:66vw;
@@ -70,14 +72,19 @@ h1 {
 .middle{
   left:33vw;
 }
+.whole{
+  left:0vw;
+  width: 100vw;
+}
 
 .listings-1 {
-  height: 25vh;
+  height: 45vh;
   overflow: auto;
   padding-bottom: 1px;
 }
 
 .listings-1 .item {
+  font: 300 'Roboto Slab', serif;
   display: block;
   border-bottom: 1px solid #eee;
   padding: 1px;
@@ -93,7 +100,7 @@ h1 {
   top: 100vh;
   left: 25vw;
   width: 75vw;
-  height: 95vh;
+  height: 94vh;
   top:0;
   bottom:0;
 }
@@ -105,6 +112,12 @@ a {
 
 a:hover {
   color: #101010;
+}
+
+.header1{
+  display: block;
+  border-bottom: 0px solid #eee;
+  text-decoration: none;
 }
 
 .listings {
@@ -122,13 +135,23 @@ a:hover {
 .listings .item:last-child { border-bottom: none; }
 .listings .item .title {
   display: block;
-  color: #00853e;
+  color: #00acc8ff;
   font-weight: 700;
 }
-.listings .item .title small { font-weight: 400; }
+.listings .item .title small { 
+  font-weight: 400;
+  }
+
+.small{
+  display: block;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+
 
 .listings .item.active .title,
-.listings .item .title:hover { color: #8cc63f; }
+.listings .item .title:hover { color: #00acc8ff; }
 
 .listings .item.active {
   background-color: #f8f8f8;
@@ -146,7 +169,7 @@ a:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #00853e;
+  background: #00acc8ff;
   border-radius: 0;
 }
 
@@ -160,10 +183,77 @@ a:hover {
   visibility: hidden;
 }  
 
+.icon{
+  width:80vw;
+  border: 4px;
+  overflow: hidden;
+}
+
+.icon img{
+  width:20vw;
+  float:left;
+  margin-right: 15px;
+}
+
+
+.button{
+  display: block;
+  position: relative;
+  margin: 20px auto;
+  width: 50%;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font: 'Roboto Slab', serif;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  background:#f0e70eff;
+  background:#bfd42fff;
+  background:#6cbe4cff;
+  background:#00acc8ff;
+
+}
+
+.button:hover{
+  background-color:#ddd;
+}
+
+ .smaller-image{
+    width: 10vw;
+  }
+.logo-image{
+    width: 25vw;
+    max-width:350px;
+  }
+
+.logo-image2{
+    width: 25vw;
+    max-width:100px;
+  }
+
+#foot {
+  position: fixed;
+  bottom: 0px;
+  z-index: 1;
+  width: 100vw;
+  height: 6vh;
+  background-color: #fff;
+  font: 300 'Roboto Slab', serif;
+  -webkit-transition: height .3s ease;
+  transition: height .3s ease; 
+}
+
+#foot:hover {
+  height: 35vh;
+} 
+
+
 @media only screen and (max-width:680px) {
   /* For mobile phones: */
   .map, .sidebar {
-  width:100vw;
+    width:100vw;
   }
   .map{
     height:60vh;
@@ -176,47 +266,10 @@ a:hover {
     height:35vh;
     text-align: center;
   }
-}
 
-.button{
+  .header1{
   display: block;
-  position: relative;
-  margin: 20px auto;
-  width: 50%;
-  height: 40px;
-  padding: 10px;
-  border: none;
-  border-radius: 3px;
-  font-size: 12px;
-  text-align: center;
-  color: #fff;
-  background: #ee8a65;
+  border-bottom: 1px solid #eee;
+  text-decoration: none;
 }
-
-.button:hover{
-  background-color:#ddd;
 }
-
-#foot {
-  position: fixed;
-  bottom: 0px;
-  z-index: 1;
-  width: 100vw;
-  height: 5vh;
-  background-color: #fff;
-  //text-align: center;
-  border: 1px solid rgba(0,0,0,0.4);
-  font-family: 'Open Sans', sans-serif;
-  -webkit-transition: height .3s ease;
-  transition: height .3s ease; 
-}
-
-#foot:hover {
-  height: 30vh;
-}
-
-
-
-
-
-  
