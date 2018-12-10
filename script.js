@@ -13,7 +13,8 @@ var map = new mapboxgl.Map({
     style: 'mapbox://styles/moxyped/cjn6fq1br115i2snaywee8zce',
     center: [-84.380378, 33.767279],
     zoom: 4,
-    maxBounds: bounds
+    maxBounds: bounds,
+    customAttribution: ['<a href=https://atlantaregional.org/ target=_blank>Atlanta Regional Comission</a>','<a href=https://www.epa.gov/eco-research/ecoregions target=_blank>EPA Eco-Regions</a>','<a href=https://hdsc.nws.noaa.gov/hdsc/pfds/pfds_map_cont.html?bkmrk=ga target=_blank>NOAA - Storm Data</a>', '<a href=https://www.epa.gov/watersense/water-budget-data-finder target=_blank>EPA - ETP</a>']
 });
 
 map.on('load', function() {
