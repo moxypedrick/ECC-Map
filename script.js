@@ -50,7 +50,7 @@ map.on('load', function() {
 
    map.addSource('isochrone', {
     'type' : 'geojson',
-    'data' : 'https://api.mapbox.com/isochrone/v1/mapbox/walking/-84.380378,33.767279?contours_minutes=2,5,7,10&contours_colors=6706ce,04e813,4286f4&polygons=true&access_token=pk.eyJ1IjoibW94eXBlZCIsImEiOiJjaWgydGpwdmYweHJydnFtMzZzOXpmNjg3In0.5TXWYv0Z7nsOZHneIQOhxg' 
+    'data' : 'https://api.mapbox.com/isochrone/v1/mapbox/walking/-84.380378,33.767279?contours_minutes=5,10&contours_colors=6706ce,04e813,4286f4&polygons=true&access_token=pk.eyJ1IjoibW94eXBlZCIsImEiOiJjaWgydGpwdmYweHJydnFtMzZzOXpmNjg3In0.5TXWYv0Z7nsOZHneIQOhxg' 
   })
  
   map.addLayer({'id' : 'isochroneLayer',
@@ -107,7 +107,7 @@ map.addControl(new MapboxGeocoder({
 map.on('click', function(e){
   if(event.ctrlKey){
     console.log("The CTRL key was pressed!")
-    var urlIsochrone = 'https://api.mapbox.com/isochrone/v1/mapbox/walking/'+e.lngLat.lng+','+e.lngLat.lat+'?contours_minutes=2,3,4,5&contours_colors=6706ce,04e813,4286f4&polygons=true&access_token=pk.eyJ1IjoibW94eXBlZCIsImEiOiJjaWgydGpwdmYweHJydnFtMzZzOXpmNjg3In0.5TXWYv0Z7nsOZHneIQOhxg'
+    var urlIsochrone = 'https://api.mapbox.com/isochrone/v1/mapbox/walking/'+e.lngLat.lng+','+e.lngLat.lat+'?contours_minutes=5,10&contours_colors=6706ce,04e813,4286f4&polygons=true&access_token=pk.eyJ1IjoibW94eXBlZCIsImEiOiJjaWgydGpwdmYweHJydnFtMzZzOXpmNjg3In0.5TXWYv0Z7nsOZHneIQOhxg'
     map.getSource('isochrone').setData(urlIsochrone);
   } 
 });
