@@ -30,3 +30,8 @@ Development: https://raw.githack.com/moxypedrick/ECC-Map/master/ecc map walkshed
 
 Production: https://rawcdn.githack.com/moxypedrick/ECC-Map/0572a3780752aaba4a4d2199a287ffaffbd0ab16/ecc map walkshed icon-final.svg
 
+EC Logo
+
+https://rawcdn.githack.com/moxypedrick/ECC-Map/619175190abfc936b2f88275f5b1da33f02a2e78/earthcraft logo w lockup@1000px.png
+
+https://raw.githack.com/moxypedrick/ECC-Map/master/earthcraft logo w lockup@1000px.png
