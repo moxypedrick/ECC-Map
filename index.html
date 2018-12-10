@@ -6,62 +6,100 @@
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet'/>
     <title>ECC Resource Map</title>
-    <link href="https://rawcdn.githack.com/moxypedrick/ECC-Map/f1fe9e72a16e133d38fff9ff17300018df59d712/style.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
+    <link href="https://rawcdn.githack.com/moxypedrick/ECC-Map/42aa87181ca9c43d97d2a6aff8e063e2bd7a4974/style.css" rel="stylesheet" type="text/css"/>
 </head>
-<body>
-  <div style="overflow:auto">
-  
-  <div id = "map" class="map"></div>
-   
-<div class="sidebar pad2">
-    <div class='heading'>
-        <h1>EarthCraft Communities</h1>
-    </div>
-    <div id= 'listings' class="listings">
-      <div class='item' id='listing-0'>
-      <a href='#' class='title'>Net Evapotranspiration (inches)</a>
-        <div id='netET'>Hover over map for ETP.</div>
-        </div>
-        <div class='item' id='listing-1'>
-      <a href='#' class='title'>1-year, 24-hour Storm (inches)</a>
-        <div id='oneYear'>Hover over map for design storm.</div>
-        </div>
-        <div class='item' id='listing-2'>
-      <a href='#' class='title'>Eco-Region</a>
-        <div id='ecoRegion'>Hover over map for Eco-Region.</div>
-        </div>
-        <div class='item' id='listing-2'>
-      <a href='#' class='title'>Jobs to Housing Balance</a>
-        <div id='jobs2housing'>Hover over map for ratio.</div>
-    </div>
-  </div>
-  </div>
+  <body>
+    <div class="sidebar pad2">
+      <div class="header1">
+        <img src="https://raw.githack.com/moxypedrick/ECC-Map/master/earthcraft logo w lockup@1000px.png" class="logo-image" alt="Icon of walkshed">
+      </div>
 
- <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.min.js'></script>
-      <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.css' type='text/css' />
-      <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v3.0.11/turf.min.js'></script>
-      
-      <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.9/mapbox-gl-draw.js'></script>
-      <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.9/mapbox-gl-draw.css' type='text/css'/>
-      <script src='https://raw.githack.com/moxypedrick/ECC-Map/master/script.js'></script>
+      <div id='listings' class='listings'>
+        <div class='item' id='listing-0'>
+          <a href='#' class='title'>Net Evapotranspiration (inches)</a>
+          <div id='netET'>Hover over map for ETP.</div>
+        </div>
+
+        <div class='item' id='listing-1'>
+          <a href='#' class='title'>1-year, 24-hour Storm (inches)</a>
+          <div id='oneYear'>Hover over map for design storm.</div>
+        </div>
+
+        <div class='item' id='listing-2'>
+          <a href='#' class='title'>Ecoregion</a>
+          <div id='ecoRegion'>Hover over map for Ecoregion.</div>
+        </div>
+
+        <div class='item' id='listing-3'>
+          <a href='#' class='title'>Jobs to Housing Balance</a>
+          <div id='jobs2housing'>Hover over map for ratio.</div>
+        </div>
+
+      </div>
+    </div>
+    <div id="map" class="map pad2"></div>   
+  <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.min.js'></script>
+        <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.css' type='text/css' />
+        <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v3.0.11/turf.min.js'></script>
+        
+        <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.9/mapbox-gl-draw.js'></script>
+        <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.9/mapbox-gl-draw.css' type='text/css'/>
+        <!--<script src='script.js'></script>-->
+        <script src='https://rawcdn.githack.com/moxypedrick/ECC-Map/fc35fa27165602c6bfde0b67e944d09b93f36c2b/script.js'></script>
+
   <div id="foot">
-      <div class="popup">
-        <h2>Instructions</h2>
-      </div>
-      <div class="sidebar-foot-1 left">
-        <div class='listings-1 item'>
-          <p>This map stores and visualizes ECC Site Review Data for project teams.  To generate a 5 and 10 minute walkshed, hold control key and click on map location - the area that one is able to walk to in 5-10 minutes is bound by blue polygons. Clicking on map returns the data specified in menu. Using the draw features tool to draw and label features on map. Use Export button to share created data.</p>
+    <div class="popup">
+      <h2>Instructions</h2>
+    </div>
+    <div class="sidebar-foot-1 whole">
+      <div class='listings'>
+        <div class='item'>
+          This map stores and visualizes ECC Site Review Data for project teams. Use it to determine the project's correct EcoRegion, Jobs-to-Housing Balance, and rainfall volumes to which to design the stormwater and irrigation system.
         </div>
-      </div>
-      <div class="sidebar-foot-1 right">
-        <div class='listings-1 item'>
-          <ul>
-            <li>Walkshed(ctr+click)</li>
-            <li>Draw Feautures</li>
-            <li>Site Review Data (click)</li>
-            <li>Label Features</li>
-          </ul>  
+
+        <div class='item'>
+          <a href='#' class='title'>
+            Generate Walkshed
+          </a>
+          <div class="icon">
+            <img src=" https://rawcdn.githack.com/moxypedrick/ECC-Map/0572a3780752aaba4a4d2199a287ffaffbd0ab16/ecc map walkshed icon-final.svg" class="logo-image2" alt="Icon of walkshed">
+            <p>To generate an ECC Walkshed, hold control key and click (for Macs command + click) on map - the area that one is able to walk to in 5 and 10 minutes will be bound by blue polygons. Use this to determine which nearyby amenities are walkable for residents in your ECC project.
+            </p>
+          </div>
         </div>
+
+        <div class='item'>
+          <a href='#' class='title'>
+            View Site Review Data
+          </a>
+          <div><p>
+            Placing mouse on map returns the Net ETP, 1-year, 24-hour storm, EcoRegion, and Jobs-to-Housing Balance. These data are used to inform EarthCraft designers on the strategies to be implemented in an EarthCraft Community.</p>
+            <ul>
+              <li>
+                <a href='#' class='title small'>
+                  Net Evapotranspiration
+                </a>
+                <p>The Net-Evapotranspiration is the amount of plant transpiration and evaporation that occurs in a specific ecoregion and climate. This number is used to calculate the baseline irrigation needs for landscaping.</p>
+              </li>
+              <li>
+                <a href='#' class='title small'>
+                  Ecoregion
+                </a>
+                <p>This map shows the Level III Ecoregions in the Georgia. The EcoRegion are areas which share the similar geography, topography, and ecosystem. Ecoregions inform the type of environmental protections which are required for ECC projects.</p>
+              </li>
+              <li>
+                <a href='#' class='title small'>
+                  Jobs-to-Housing Balance
+                </a>
+                <p>This is the ratio of number of jobs divided by number of housing units in the location's census tract. The desired ratio is 1.5, or 3 jobs for every 2 housing units ECC awards points if the new buildings will bring the ratio closer to 3:2.</p>
+              </li>
+            </ul>
+          </div>
       </div>
-</body>
+    </div>
+  </div>
+  </div>
+  
+  </body>
 </html>
