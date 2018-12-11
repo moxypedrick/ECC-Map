@@ -1,8 +1,16 @@
 # EarthCraft Community Map and Certification Tool
 
-Rawgit for S Georgia File: 
+This map aggregates site review information needed for EarthCraft Communities projects. It assists site planners select, analyze, and communicate site planning decisions in the EarthCraft Certification Process. The html is currently being hosted on repl.it. The gis data, javascript, and css is are hosted on rawgit.com or raw.githack.com. Rawgit.com will be depracated in about a year and thus all data will be transferred to raw.githack.com. 
 
-Production: https://cdn.rawgit.com/moxypedrick/ECC-Map/680c77e1/S_Georgia.geojson
+The map holds data for EarthCraft Communities Site Reviews and credit documentation. It provides two main functions: (1) provide the following data: Jobs-to-housing balance, Ecoregion, 1-year,24-hour storm, and Net ETP. (2) generates the 5 and 10 minute walkshed for project site. 
+
+The map tiles are served by Mapbox. To generate the walksheds we use the mapbox isochrone api. 
+
+
+Data: 
+
+S Georgia File: 
+<a href="https://cdn.rawgit.com/moxypedrick/ECC-Map/680c77e1/S_Georgia.geojson">Production</a>
 
 Development: https://rawgit.com/moxypedrick/ECC-Map/master/S_Georgia.geojson
 
