@@ -8,11 +8,14 @@ The map tiles are served by Mapbox. To generate the walksheds we use the mapbox 
 
 
 Data: 
+<ul>
+  <li>S Georgia File:</li>
+  <ul>
+    <li><a href="https://cdn.rawgit.com/moxypedrick/ECC-Map/680c77e1/S_Georgia.geojson">Production</a></li>
+    <li><a href="https://rawgit.com/moxypedrick/ECC-Map/master/S_Georgia.geojson">Developmeny</a></li>
+  </ul>
+  </ul> 
 
-S Georgia File: 
-<a href="https://cdn.rawgit.com/moxypedrick/ECC-Map/680c77e1/S_Georgia.geojson">Production</a>
-
-Development: https://rawgit.com/moxypedrick/ECC-Map/master/S_Georgia.geojson
 
 Rawgit for N Georgia File: 
 
