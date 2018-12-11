@@ -14,8 +14,7 @@ Development: https://rawgit.com/moxypedrick/ECC-Map/master/N_Georgia.geojson
 
 JavaScript: 
 
-Production:https://rawcdn.githack.com/moxypedrick/ECC-Map/91bfbf9b2eb3fa6bdec620d028989b8dd274115d/script.js
-
+Production: https://rawcdn.githack.com/moxypedrick/ECC-Map/60f9ae7f5c575e9bf4b053a7550a7a7401ea92b8/script.js
 Development: https://raw.githack.com/moxypedrick/ECC-Map/master/script.js
 
 Styles:
