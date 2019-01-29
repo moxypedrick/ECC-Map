@@ -55,8 +55,7 @@ h1 {
 .sidebar-foot-1 {  
   font: 300 15px/26px 'Roboto Slab', serif;
   position: fixed;
-  
-  height: 30vh;
+  height: 35vh;
   line-height:1.5;
   top: 100;
   overflow: visible;
@@ -149,7 +148,6 @@ a:hover {
 }
 
 
-
 .listings .item.active .title,
 .listings .item .title:hover { color: #00acc8ff; }
 
@@ -195,7 +193,6 @@ a:hover {
   margin-right: 15px;
 }
 
-
 .button{
   display: block;
   position: relative;
@@ -233,7 +230,37 @@ a:hover {
     max-width:100px;
   }
 
-#foot {
+.instructions{
+  display: block;
+  position: relative;
+  width: 100vw;
+  height: 6vh;
+  font: 'Roboto Slab', serif;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  background-color:#6cbe4cff;
+  cursor: pointer;
+
+  }
+  .active, .instructions:hover{
+    background-color:#555
+  }
+
+.foot2{
+  position: fixed;
+  bottom: 0px;
+  z-index: 1;
+  width: 100vw;
+  height: 35vh;
+  background-color: #fff;
+  font: 300 'Roboto Slab', serif;
+  -webkit-transition: height .3s ease;
+  transition: height .3s ease; 
+  cursor: 
+}
+
+.foot1{
   position: fixed;
   bottom: 0px;
   z-index: 1;
@@ -245,9 +272,6 @@ a:hover {
   transition: height .3s ease; 
 }
 
-#foot:hover {
-  height: 35vh;
-} 
 
 
 @media only screen and (max-width:680px) {
@@ -272,4 +296,31 @@ a:hover {
   border-bottom: 1px solid #eee;
   text-decoration: none;
 }
+
+  
+.foot2{
+  position: fixed;
+  bottom: 0px;
+  z-index: 1;
+  width: 100vw;
+  height: 45vh;
+  background-color: #fff;
+  font: 300 'Roboto Slab', serif;
+  -webkit-transition: height .3s ease;
+  transition: height .3s ease; 
 }
+
+.foot1{
+  position: fixed;
+  bottom: 0px;
+  z-index: 1;
+  width: 100vw;
+  height: 6vh;
+  background-color: #fff;
+  font: 300 'Roboto Slab', serif;
+  -webkit-transition: height .3s ease;
+  transition: height .3s ease; 
+}
+
+}
+
