@@ -15,7 +15,7 @@ Code:
   </ul>
   <li>Styles</li>
   <ul>
-    <li><a href="https://rawcdn.githack.com/moxypedrick/ECC-Map/42aa87181ca9c43d97d2a6aff8e063e2bd7a4974/style.css">Production</a></li>
+    <li><a href="https://rawcdn.githack.com/moxypedrick/ECC-Map/ac3ce04247eff8531899376a8df082935c93cb4f/style.css">Production</a></li>
     <li><a href="https://raw.githack.com/moxypedrick/ECC-Map/master/style.css">Development</a></li>
   </ul>
 </ul>
