@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet'/>
+    
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     <title>ECC Resource Map</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
-    <link href="https://rawcdn.githack.com/moxypedrick/ECC-Map/42aa87181ca9c43d97d2a6aff8e063e2bd7a4974/style.css" rel="stylesheet" type="text/css"/>
+    <link href="https://rawcdn.githack.com/moxypedrick/ECC-Map/ac3ce04247eff8531899376a8df082935c93cb4f/style.css" rel="stylesheet" type="text/css"/>
 </head>
   <body>
     <div class="sidebar pad2">
@@ -45,12 +49,11 @@
         
         <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.9/mapbox-gl-draw.js'></script>
         <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.9/mapbox-gl-draw.css' type='text/css'/>
-        <!--<script src='script.js'></script>-->
-        <script src='https://rawcdn.githack.com/moxypedrick/ECC-Map/1e19e5676b65b4918aa9750e3cac89145e9caaa2/script.js'></script>
+        <script src='https://rawcdn.githack.com/moxypedrick/ECC-Map/60f9ae7f5c575e9bf4b053a7550a7a7401ea92b8/script.js'></script>
 
-  <div id="foot">
-    <div class="popup">
-      <h2>Instructions</h2>
+  <div id="foot" class="foot2">
+    <div>
+      <button class="instructions" onClick="myFunction()">Instructions <i class="fa fa-navicon"></i></button>
     </div>
     <div class="sidebar-foot-1 whole">
       <div class='listings'>
@@ -99,7 +102,15 @@
       </div>
     </div>
   </div>
+  <script>
+function myFunction(){
+  if(document.getElementById("foot").className === "foot2") {
+    document.getElementById("foot").className = "foot1";
+    } else {
+      document.getElementById("foot").className = "foot2";
+    }
+};
+</script>
   </div>
-  
   </body>
 </html>
