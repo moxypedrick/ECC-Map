@@ -18,6 +18,11 @@ Code:
     <li><a href="https://rawcdn.githack.com/moxypedrick/ECC-Map/ac3ce04247eff8531899376a8df082935c93cb4f/style.css">Production</a></li>
     <li><a href="https://raw.githack.com/moxypedrick/ECC-Map/master/style.css">Development</a></li>
   </ul>
+  <li>HTML</li>
+  <ul>
+    <li><a href="https://raw.githack.com/moxypedrick/ECC-Map/master/index.html">Production</a></li>
+    <li><a href="https://rawcdn.githack.com/moxypedrick/ECC-Map/65ae9d7d4cfd185ee3344a859041dca64d5a1f9a/index.html">Development</a></li>
+  </ul>
 </ul>
 Data: 
 <ul>
