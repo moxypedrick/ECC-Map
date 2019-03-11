@@ -6,6 +6,11 @@ The map holds data for EarthCraft Communities Site Reviews and credit documentat
 
 The map tiles are served by Mapbox. To generate the walksheds we use the mapbox isochrone api. 
 
+Future Improvements: 
+<ul>
+  <li>Radon Zones</li>
+</ul>
+
 Code:
 <ul>
   <li>Javascript</li>
