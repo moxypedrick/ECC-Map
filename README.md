@@ -12,11 +12,14 @@ Future Improvements:
 </ul>
 Code:
 <ul>
-  <li>Javascript<a href="https://github.com/moxypedrick/ECC-Map/tree/master/scripts"></li>
-  <li>Styles<a href="https://github.com/moxypedrick/ECC-Map/tree/master/styles"></li>
+  <li><a href="https://github.com/moxypedrick/ECC-Map/tree/master/scripts">Javascript</li>
+  <li><a href="https://github.com/moxypedrick/ECC-Map/tree/master/styles">Styles</li>
   <li><a href="https://github.com/moxypedrick/ECC-Map/blob/master/index.html">HTML</a></li>
 </ul>
-<li>Data: <a href="https://github.com/moxypedrick/ECC-Map/tree/master/data"></li>
+<ul>
+<a href="https://github.com/moxypedrick/ECC-Map/tree/master/data">Data: 
+</ul>
+<li></li>
 <ul>
 Media:
 </ul>
