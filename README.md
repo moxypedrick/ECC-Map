@@ -12,37 +12,19 @@ Future Improvements:
 </ul>
 Code:
 <ul>
-  <li><a href="https://github.com/moxypedrick/ECC-Map/tree/master/scripts">Javascript</li>
-  <li><a href="https://github.com/moxypedrick/ECC-Map/tree/master/styles">Styles</li>
+  <li><a href="https://github.com/moxypedrick/ECC-Map/tree/master/scripts">Javascript</a></li>
+  <li><a href="https://github.com/moxypedrick/ECC-Map/tree/master/styles">Styles</a></li>
   <li><a href="https://github.com/moxypedrick/ECC-Map/blob/master/index.html">HTML</a></li>
 </ul>
+Data:
 <ul>
-<a href="https://github.com/moxypedrick/ECC-Map/tree/master/data">Data: 
+  <li><a href="https://github.com/moxypedrick/ECC-Map/tree/master/data">Data:</li> 
 </ul>
-<li></li>
-<ul>
 Media:
+<ul>
+  <li><a href="https://github.com/moxypedrick/ECC-Map/blob/master/media/ecc%20map%20walkshed%20icon-final.svg">Walkshed</a></li>
+  <li><a href="https://github.com/moxypedrick/ECC-Map/blob/master/media/earthcraft%20logo%20w%20lockup%401000px.png">EC Logo</a></li>
+  <li><a href="https://github.com/moxypedrick/ECC-Map/blob/master/media/fast-forward-double-right-arrows.svg">Arrows</a></li>
 </ul>
-    <li><a href="https://github.com/moxypedrick/ECC-Map/tree/master/data">Production</a></li>
-  </ul>
-  <li>Walkshed Icon</li>
-  <ul>
-    <li><a href="https://rawcdn.githack.com/moxypedrick/ECC-Map/0572a3780752aaba4a4d2199a287ffaffbd0ab16/ecc map walkshed icon-final.svg">Production</a></li>
-    <li><a href="https://raw.githack.com/moxypedrick/ECC-Map/master/ecc map walkshed icon-final.svg">Development</a></li>
-  </ul>
-  <li>EC Logo</li>
-  <ul>
-    <li><a href="https://rawcdn.githack.com/moxypedrick/ECC-Map/619175190abfc936b2f88275f5b1da33f02a2e78/earthcraft logo w lockup@1000px.png
-">Production</a></li>
-    <li><a href="https://raw.githack.com/moxypedrick/ECC-Map/master/earthcraft logo w lockup@1000px.png">Development</a></li>
-  </ul>
-   <li>Arrow</li>
-  <ul>
-    <li><a href="https://rawcdn.githack.com/moxypedrick/ECC-Map/2e9de6f699f0a909fba372bebcc26cd9f4ce36cd/fast-forward-double-right-arrows.svg">Production</a></li>
-    <li><a href="https://raw.githack.com/moxypedrick/ECC-Map/master/fast-forward-double-right-arrows.svg">Development</a></li>
-  </ul>
-</ul>
-
-
-
+ 
 
