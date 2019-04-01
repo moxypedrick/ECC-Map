@@ -20,7 +20,7 @@ var map = new mapboxgl.Map({
 map.on('load', function() {
   map.addSource('soGeorgia', {
     'type' : 'geojson',
-    'data' : 'https://rawgit.com/moxypedrick/ECC-Map/master/S_Georgia.geojson' 
+    'data' : 'data/S_Georgia.geojson' 
   })
 
   map.addLayer({'id' : 'soGeorgiaLayer',
@@ -35,7 +35,7 @@ map.on('load', function() {
 
   map.addSource('noGeorgia', {
     'type' : 'geojson',
-    'data' : 'https://rawgit.com/moxypedrick/ECC-Map/master/N_Georgia.geojson' 
+    'data' : 'data/N_Georgia.geojson' 
   })
 
   map.addLayer({'id' : 'noGeorgiaLayer',
