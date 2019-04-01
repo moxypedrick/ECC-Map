@@ -1,6 +1,6 @@
 # EarthCraft Community Map and Certification Tool
 
-This <a href="https://raw.githack.com/moxypedrick/ECC-Map/master/index.html">map</a> aggregates site review information needed for EarthCraft Communities projects. It assists site planners select, analyze, and communicate site planning decisions in the EarthCraft Certification Process. The html is currently being hosted on repl.it. The gis data, javascript, and css is are hosted on rawgit.com or raw.githack.com. Rawgit.com will be depracated in about a year and thus all data will be transferred to raw.githack.com. 
+This <a href="https://moxypedrick.github.io/ECC-Map/">map</a> aggregates site review information needed for EarthCraft Communities projects. It assists site planners select, analyze, and communicate site planning decisions in the EarthCraft Certification Process. The html is currently being hosted on repl.it. The gis data, javascript, and css is are hosted on rawgit.com or raw.githack.com. Rawgit.com will be depracated in about a year and thus all data will be transferred to raw.githack.com. 
 
 The map holds data for EarthCraft Communities Site Reviews and credit documentation. It provides two main functions: (1) provide the following data: Jobs-to-housing balance, Ecoregion, 1-year,24-hour storm, and Net ETP. (2) generates the 5 and 10 minute walkshed for project site. 
 
@@ -10,36 +10,17 @@ Future Improvements:
 <ul>
   <li>Radon Zones</li>
 </ul>
-
 Code:
 <ul>
-  <li>Javascript</li>
-  <ul>
-    <li><a href="https://rawcdn.githack.com/moxypedrick/ECC-Map/60f9ae7f5c575e9bf4b053a7550a7a7401ea92b8/script.js">Production</a></li>
-    <li><a href="https://raw.githack.com/moxypedrick/ECC-Map/master/script.js">Development</a></li>
-  </ul>
-  <li>Styles</li>
-  <ul>
-    <li><a href="https://rawcdn.githack.com/moxypedrick/ECC-Map/ac3ce04247eff8531899376a8df082935c93cb4f/style.css">Production</a></li>
-    <li><a href="https://raw.githack.com/moxypedrick/ECC-Map/master/style.css">Development</a></li>
-  </ul>
-  <li>HTML</li>
-  <ul>
-    <li><a href="https://raw.githack.com/moxypedrick/ECC-Map/master/index.html">Production</a></li>
-    <li><a href="https://rawcdn.githack.com/moxypedrick/ECC-Map/65ae9d7d4cfd185ee3344a859041dca64d5a1f9a/index.html">Development</a></li>
-  </ul>
+  <li>Javascript<a href="https://github.com/moxypedrick/ECC-Map/tree/master/scripts"></li>
+  <li>Styles<a href="https://github.com/moxypedrick/ECC-Map/tree/master/styles"></li>
+  <li><a href="https://github.com/moxypedrick/ECC-Map/blob/master/index.html">HTML</a></li>
 </ul>
-Data: 
+<li>Data: <a href="https://github.com/moxypedrick/ECC-Map/tree/master/data"></li>
 <ul>
-  <li>S Georgia File</li>
-  <ul>
-    <li><a href="https://cdn.rawgit.com/moxypedrick/ECC-Map/680c77e1/S_Georgia.geojson">Production</a></li>
-    <li><a href="https://rawgit.com/moxypedrick/ECC-Map/master/S_Georgia.geojson">Development</a></li>
-  </ul>
-  <li>N Georgia File</li>
-  <ul>
-    <li><a href="https://cdn.rawgit.com/moxypedrick/ECC-Map/680c77e1/N_Georgia.geojson">Production</a></li>
-    <li><a href="https://rawgit.com/moxypedrick/ECC-Map/master/N_Georgia.geojson">Development</a></li>
+Media:
+</ul>
+    <li><a href="https://github.com/moxypedrick/ECC-Map/tree/master/data">Production</a></li>
   </ul>
   <li>Walkshed Icon</li>
   <ul>
