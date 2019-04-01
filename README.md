@@ -18,7 +18,7 @@ Code:
 </ul>
 Data:
 <ul>
-  <li><a href="https://github.com/moxypedrick/ECC-Map/tree/master/data">Data:</li> 
+  <li><a href="https://github.com/moxypedrick/ECC-Map/tree/master/data">GeoJson</a></li> 
 </ul>
 Media:
 <ul>
