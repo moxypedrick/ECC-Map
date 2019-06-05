@@ -105,8 +105,8 @@ map.addControl(new MapboxGeocoder({
 }), 'top-right');
 
 map.on('click', function(e){
-  if(event.ctrlKey){
-    console.log("The CTRL key was pressed!")
+  if(event.altKey){
+    console.log("The alt was pressed!")
     var urlIsochrone = 'https://api.mapbox.com/isochrone/v1/mapbox/walking/'+e.lngLat.lng+','+e.lngLat.lat+'?contours_minutes=5,10&contours_colors=6706ce,04e813,4286f4&polygons=true&access_token=pk.eyJ1IjoibW94eXBlZCIsImEiOiJjaWgydGpwdmYweHJydnFtMzZzOXpmNjg3In0.5TXWYv0Z7nsOZHneIQOhxg'
     map.getSource('isochrone').setData(urlIsochrone);
   } 
